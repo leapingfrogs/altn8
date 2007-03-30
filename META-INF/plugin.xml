@@ -1,22 +1,17 @@
 <!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
 <idea-plugin>
-  <name>Alt n 8</name>
-  <description>Open Alternate File: i.e. jump from source to test and back ;-)</description>
-  <version>0.2</version>
-  <vendor>LeapingFrogs.com</vendor>
-  <idea-version since-build="3000"/>
+    <name>Alt n 8</name>
+    <description>Open Alternate File: i.e. jump from source to test and back ;-)</description>
+    <version>0.2</version>
+    <vendor>LeapingFrogs.com</vendor>
+    <idea-version since-build="3000"/>
     <application-components>
-        <component>
-            <implementation-class>com.leapingfrogs.idea.plugins.alternate.application.AlternateApp</implementation-class>
-        </component>
     </application-components>
     <actions>
-        <action id="alternate_file" class="com.leapingfrogs.idea.plugins.alternate.action.AlternateFileAction" text="Alternate File" description="This action will switch the editor to the alternate file, i.e. code to relevant test file, etc...">
+        <action id="alternate_file" class="com.leapingfrogs.idea.plugins.alternate.action.AlternateFileAction"
+                text="Alternate File"
+                description="This action will switch the editor to the alternate file, i.e. code to relevant test file, etc...">
             <keyboard-shortcut keymap="$default" first-keystroke="alt 8"/>
-            <add-to-group group-id="EditorPopupMenu.GoTo" anchor="first"/>
-        </action>
-        <action id="Configure Alternate" class="com.leapingfrogs.idea.plugins.alternate.action.ConfigureAlternateFileAction" text="Configure Alternate File" description="Like it says... go configure.">
-            <keyboard-shortcut keymap="$default" first-keystroke="alt 9"/>
             <add-to-group group-id="EditorPopupMenu.GoTo" anchor="first"/>
         </action>
     </actions>

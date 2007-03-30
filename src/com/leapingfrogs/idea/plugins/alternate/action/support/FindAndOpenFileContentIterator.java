@@ -8,43 +8,36 @@ import com.intellij.openapi.vfs.VirtualFile;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindAndOpenFileContentIterator implements ContentIterator
-{
+public class FindAndOpenFileContentIterator implements ContentIterator {
     private List fileNames;
     private Module module;
     private ProjectFileIndex fileIndex;
 
-    private List<VirtualFile> possibleModuleFiles;
-    private List<VirtualFile> possibleProjectFiles;
+    private List possibleModuleFiles;
+    private List possibleProjectFiles;
 
-    public FindAndOpenFileContentIterator(List<String> alternateFileNames, Module currentModule, ProjectFileIndex projectFileIndex)
-    {
+    public FindAndOpenFileContentIterator(List alternateFileNames, Module currentModule, ProjectFileIndex projectFileIndex) {
         fileNames = alternateFileNames;
         module = currentModule;
         fileIndex = projectFileIndex;
-        possibleModuleFiles = new ArrayList<VirtualFile>();
-        possibleProjectFiles = new ArrayList<VirtualFile>();
+        possibleModuleFiles = new ArrayList();
+        possibleProjectFiles = new ArrayList();
     }
 
-    public boolean processFile(VirtualFile fileOrDir)
-    {
-        if (!fileOrDir.isDirectory() && fileNames.contains(fileOrDir.getName()))
-        {
+    public boolean processFile(VirtualFile fileOrDir) {
+        if (!fileOrDir.isDirectory() && fileNames.contains(fileOrDir.getName())) {
             Module moduleForFile = fileIndex.getModuleForFile(fileOrDir);
-            if (module.equals(moduleForFile))
-            {
+            if (module.equals(moduleForFile)) {
                 possibleModuleFiles.add(fileOrDir);
-            } else
-            {
+            } else {
                 possibleProjectFiles.add(fileOrDir);
             }
         }
         return true;
     }
 
-    public VirtualFile[] getMatchingFiles()
-    {
+    public VirtualFile[] getMatchingFiles() {
         fileIndex.iterateContent(this);
-        return possibleModuleFiles.isEmpty() ? possibleProjectFiles.toArray(new VirtualFile[0]) : possibleModuleFiles.toArray(new VirtualFile[0]);
+        return (VirtualFile[]) (possibleModuleFiles.isEmpty() ? possibleProjectFiles.toArray(new VirtualFile[0]) : possibleModuleFiles.toArray(new VirtualFile[0]));
     }
 }
