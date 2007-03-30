@@ -17,33 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/RunnableFileHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/application/AlternateApp.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/OpenFileHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/OpenFileHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/altn8.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/application" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/mocks/MockFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/mocks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/AlternateFileAction.java" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/AlternateFileAction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/AlternateFilePopupChooser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/test_altn8.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/FindAndOpenFileContentIterator.java" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/FindAndOpenFileContentIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/mocks/MockVirtualFile.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/plugins/alternate/action/support/TestJRubyRunner.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/BaseFileAction.java" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/BaseFileAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/plugins/alternate/action/support/TestJavaAlternateFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/AlternateFilePopupChooser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/plugins/alternate/action/support/TestRunnableFileHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/AlternateFinder.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/JRubyRunner.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Alternate.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/RunnableFileHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alternate.ipr" afterPath="$PROJECT_DIR$/Alternate.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alternate.iws" afterPath="$PROJECT_DIR$/Alternate.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alternate.iml" afterPath="$PROJECT_DIR$/Alternate.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/ConfigureAlternateFileAction.java" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support/JavaAlternateFinder.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/altn8.alt" afterPath="" />
     </list>
   </component>
   <component name="ChangeListSynchronizer" />
@@ -167,26 +143,7 @@
     </subPane>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.5947522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRunnableFileHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/plugins/alternate/action/support/TestRunnableFileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="56" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5698324">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -280,194 +237,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Alternate.ipr" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/src/com/leapingfrogs/idea/plugins/alternate/action/support" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/META-INF" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit/src/com/leapingfrogs/idea" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit/src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit/src/com/leapingfrogs/idea" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/mocks" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate.ipr" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Alternate" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:$PROJECT_DIR$/classes" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
     </subPane>
@@ -834,23 +603,23 @@
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" order="0" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" order="3" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" order="7" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48465267" order="1" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" order="1" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5621971" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" order="8" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" order="1" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" order="8" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38933763" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" order="4" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967507" order="0" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50073856" order="8" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
@@ -933,9 +702,9 @@
   <component name="com.intellij.ide.util.scopeChooser.ScopeChooserConfigurable" proportions="0.11111111" version="1">
     <option name="myLastEditedConfigurable" value="Prod" />
   </component>
-  <component name="com.intellij.openapi.roots.ui.configuration.projectRoot.ProjectRootMasterDetailsConfigurable" proportions="0.11111111" version="1">
+  <component name="com.intellij.openapi.roots.ui.configuration.projectRoot.ProjectRootMasterDetailsConfigurable" proportions="0.11111111,0.5" version="1">
     <option name="myPlainMode" value="false" />
-    <option name="myLastEditedConfigurable" value="IDEA 6148" />
+    <option name="myLastEditedConfigurable" value="Alternate" />
   </component>
   <component name="com.intellij.profile.ui.ErrorOptionsConfigurable" proportions="" version="1">
     <option name="myLastEditedConfigurable" />
@@ -1038,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junit/src/com/leapingfrogs/idea/plugins/alternate/action/support/TestRunnableFileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5698324">
+        <state line="26" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.6703911">
           <folding />
         </state>
       </provider>
