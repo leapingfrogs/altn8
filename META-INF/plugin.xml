@@ -6,7 +6,7 @@
     <vendor>LeapingFrogs.com</vendor>
     <idea-version since-build="3000"/>
     <application-components>
-    </application-components>
+    <component><implementation-class>com.leapingfrogs.idea.plugins.alternate.action.AlternateApplicationComponent</implementation-class></component></application-components>
     <actions>
         <action id="alternate_file" class="com.leapingfrogs.idea.plugins.alternate.action.AlternateFileAction"
                 text="Alternate File"

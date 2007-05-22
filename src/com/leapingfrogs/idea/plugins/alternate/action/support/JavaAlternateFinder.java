@@ -1,31 +1,58 @@
 package com.leapingfrogs.idea.plugins.alternate.action.support;
 
+import com.leapingfrogs.idea.plugins.alternate.action.AlternateApplicationComponent;
+import com.leapingfrogs.idea.plugins.alternate.action.AlternateMapping;
+
 import java.util.*;
 
-public class JavaAlternateFinder implements AlternateFinder {
-    private Map mappings;
+public class JavaAlternateFinder implements AlternateFinder
+{
+    private final AlternateApplicationComponent applicationComponent;
 
-    public JavaAlternateFinder() {
-        mappings = new HashMap();
-        mappings.put("^test_(.*)\\.rb$", new String[]{"$1.sp"});
-        mappings.put("^test_(.*)\\.xml$", new String[]{"$1.sp"});
-        mappings.put("^(.*)\\.sp$", new String[]{"test_$1.xml", "test_$1.rb"});
+    public JavaAlternateFinder( AlternateApplicationComponent applicationComponent )
+    {
+        this.applicationComponent = applicationComponent;
     }
 
-    public String[] getAlternateNames(String currentFileName) {
+    public String[] getAlternateNames( String currentFileName )
+    {
+        Map mappings = getMappingsAsHash();
+
         List names = new ArrayList();
 
-        for (Iterator iterator = mappings.keySet().iterator(); iterator.hasNext();) {
+        for ( Iterator iterator = mappings.keySet().iterator(); iterator.hasNext(); )
+        {
             String matchPattern = (String) iterator.next();
-            String[] replacePatterns = (String[]) mappings.get(matchPattern);
+            List replacePatterns = (List) mappings.get( matchPattern );
 
-            if (currentFileName.matches(matchPattern)) {
-                for (int i = 0; i < replacePatterns.length; i++) {
-                    String newName = currentFileName.replaceFirst(matchPattern, replacePatterns[i]);
-                    names.add(newName);
+            if ( currentFileName.matches( matchPattern ) )
+            {
+                for ( int i = 0; i < replacePatterns.size(); i++ )
+                {
+                    String newName = currentFileName.replaceFirst( matchPattern, (String) replacePatterns.get( i ) );
+                    names.add( newName );
                 }
             }
         }
-        return (String[]) names.toArray(new String[0]);
+        return (String[]) names.toArray( new String[0] );
+    }
+
+    private Map getMappingsAsHash()
+    {
+        List mappingList = applicationComponent.getMappings();
+
+        Map mappings = new HashMap();
+
+        for ( int i = 0; i < mappingList.size(); i++ )
+        {
+            AlternateMapping mapping = (AlternateMapping) mappingList.get( i );
+            if ( !mappings.containsKey( mapping.getMatchExpression() ) )
+            {
+                mappings.put( mapping.getMatchExpression(), new ArrayList() );
+            }
+            ( (List) mappings.get( mapping.getMatchExpression() ) ).add( mapping.getReplaceExpression() );
+        }
+
+        return mappings;
     }
 }
