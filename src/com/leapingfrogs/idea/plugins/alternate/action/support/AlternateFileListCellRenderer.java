@@ -12,25 +12,25 @@ import com.intellij.ui.SimpleTextAttributes;
 
 import javax.swing.*;
 
-public class AlternateFileListCellRenderer extends ColoredListCellRenderer
+class AlternateFileListCellRenderer extends ColoredListCellRenderer
 {
     private final Project project;
 
-    public AlternateFileListCellRenderer(Project currentProject)
+    public AlternateFileListCellRenderer( Project currentProject )
     {
         this.project = currentProject;
     }
 
-    protected void customizeCellRenderer(JList list, Object value, int index, boolean selected, boolean hasFocus)
+    protected void customizeCellRenderer( JList list, Object value, int index, boolean selected, boolean hasFocus )
     {
-        if (value instanceof VirtualFile)
+        if ( value instanceof VirtualFile )
         {
             VirtualFile virtualfile = (VirtualFile) value;
             String fileName = virtualfile.getName();
-            setIcon(IconUtilEx.getIcon(virtualfile, 2, project));
-            FileStatus filestatus = FileStatusManager.getInstance(project).getStatus(virtualfile);
-            TextAttributes textattributes = new TextAttributes(filestatus.getColor(), null, null, EffectType.LINE_UNDERSCORE, 0);
-            append(fileName, SimpleTextAttributes.fromTextAttributes(textattributes));
+            setIcon( IconUtilEx.getIcon( virtualfile, 2, project ) );
+            FileStatus filestatus = FileStatusManager.getInstance( project ).getStatus( virtualfile );
+            TextAttributes textattributes = new TextAttributes( filestatus.getColor(), null, null, EffectType.LINE_UNDERSCORE, 0 );
+            append( fileName, SimpleTextAttributes.fromTextAttributes( textattributes ) );
         }
     }
 }

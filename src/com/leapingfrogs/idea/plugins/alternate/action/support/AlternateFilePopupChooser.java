@@ -8,28 +8,31 @@ import com.intellij.openapi.vfs.VirtualFile;
 
 import javax.swing.*;
 
-public class AlternateFilePopupChooser {
-    private Project currentProject;
-    private FileHandler fileHandler;
+public class AlternateFilePopupChooser
+{
+    private final Project currentProject;
+    private final FileHandler fileHandler;
 
-    public AlternateFilePopupChooser(Project currentProject, FileHandler fileHandler) {
+    public AlternateFilePopupChooser( Project currentProject, FileHandler fileHandler )
+    {
         this.currentProject = currentProject;
         this.fileHandler = fileHandler;
     }
 
-    public void promptForFiles(VirtualFile[] files) {
-        JList valueList = new JList(files);
+    public void promptForFiles( VirtualFile[] files )
+    {
+        JList valueList = new JList( files );
 
-        Runnable selectedFileHandler = new RunnableFileHandler(valueList, fileHandler);
+        Runnable selectedFileHandler = new RunnableFileHandler( valueList, fileHandler );
 
-        valueList.setCellRenderer(new AlternateFileListCellRenderer(currentProject));
+        valueList.setCellRenderer( new AlternateFileListCellRenderer( currentProject ) );
 
         JBPopupFactory popupFactory = JBPopupFactory.getInstance();
-        PopupChooserBuilder listPopupBuilder = popupFactory.createListPopupBuilder(valueList);
-        listPopupBuilder.setItemChoosenCallback(selectedFileHandler);
-        listPopupBuilder.setTitle("Select the file(s) to open");
+        PopupChooserBuilder listPopupBuilder = popupFactory.createListPopupBuilder( valueList );
+        listPopupBuilder.setItemChoosenCallback( selectedFileHandler );
+        listPopupBuilder.setTitle( "Select the file(s) to open" );
         JBPopup jbPopup = listPopupBuilder.createPopup();
-        jbPopup.showCenteredInCurrentWindow(currentProject);
+        jbPopup.showCenteredInCurrentWindow( currentProject );
     }
 
 }

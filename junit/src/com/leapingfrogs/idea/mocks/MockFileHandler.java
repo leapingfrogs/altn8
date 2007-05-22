@@ -6,14 +6,17 @@ import com.leapingfrogs.idea.plugins.alternate.action.support.FileHandler;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MockFileHandler implements FileHandler {
-    private List openedFiles = new ArrayList();
+public class MockFileHandler implements FileHandler
+{
+    private final List openedFiles = new ArrayList();
 
-    public void processFile(VirtualFile virtualFile) {
-        openedFiles.add(virtualFile);
+    public void processFile( VirtualFile virtualFile )
+    {
+        openedFiles.add( virtualFile );
     }
 
-    public VirtualFile[] getOpenedFiles() {
-        return (VirtualFile[]) openedFiles.toArray(new VirtualFile[0]);
+    public VirtualFile[] getOpenedFiles()
+    {
+        return (VirtualFile[]) openedFiles.toArray( new VirtualFile[0] );
     }
 }
